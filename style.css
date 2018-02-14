@@ -1,0 +1,24 @@
+.container{
+    height: 100%;
+}
+
+.zoom-map {
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    display: grid;
+}
+
+.zoom-map button{
+    background: #fff6a7;
+    border-style: double;
+    border-color: #dedede;
+    cursor: pointer;
+}
+.zoom-map button:hover{
+    background: #f4e986;
+}
+
+.heatmap-canvas{
+    transform: scale(1);
+}
